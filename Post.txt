@@ -1,0 +1,73 @@
+
+
+this contin 
+2 Servers 
+PDC , ADC 
+5 Desktop Computers For End users
+Director_PC,Deputy Director_PC,Archive_pc, Inventory_pc , Maintenance_PC --> Windows 10 Pro 
+
+
+Main Server : PDC --> Windows server 2016 DataCenter Desktop
+1-AD DC the Domian name : Tech.local  , IP + DNS: 192.168.1.10
+2-DHCP  
+3-File Server 
+4-Backup Server
+------------------------------------------------------------
+1-ADDC
+Script For Create Bluk of OUs
+Script For Create Bluk of Uesers 
+Script For Join Machine to Domain 
+Script For Add Local USer (IT-Support) With Password For All computers for enrgancy from GP
+Script For MapNetworkDrive(GP)
+Enble for AD Recycly Bin 
+
+Employee Restriction By group Policy
+
+1.Alt +Contorl +Dele 
+	Disable the TAskmanager + Change A password
+
+2. User Can't Open Control Panal 
+3.Shortcut For Shared Drive on Desktop + Shortcut For WebSiet Comany on desktop 
+4.Map Network Drive For Shared Drive 
+5.Dany Access For All Removeble Storage 
+6.Same Wallpaper For All User 
+
+-------------------------------------------------------------
+2-DHCP 
+scop 192.168.1.200 --> 192.168.1.240
+Exclusion 192.168.1.241 --> 192.168.1.254
+Lease Duration : 10 Days
+-------------------------------------------------------------
+
+3-File Server
+1-Quota
+2-Shadow Copies
+
+--------------------------------------------------------------------------
+4-Backup state Server
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+2.ADC For active Dirctory "Tech.local" --> Windows server 2016 DataCenter Core "Command Line"
+
+
+
+
+
+All Users & Administrator same Password :P@ssw0rd
+
+Users
+
+Sameh --> Director
+Araby --> Deputy Director
+AbdelZaher --> Deputy Director
+Hamdan   --> Deputy Director
+Ehab     --> storekeeper
+Diaa     --> storekeeper
+Ebrahim --> storekeeper
+Fawiz  --> Archive
+Hatem --> Archive
+Ali -->Maintenance
+Abdallah-->Maintenance
+10 Uesers and 4 OU's

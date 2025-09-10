@@ -1,0 +1,15 @@
+dsadd user "cn=Sameh,ou=managment,dc=Tech,dc=local" -pwd P@ssw0rd -pwdneverexpires yes -disabled no
+dsadd user "cn=Araby,ou=managment,dc=Tech,dc=local" -pwd P@ssw0rd -pwdneverexpires yes -disabled no
+dsadd user "cn=AbdelZaher,ou=managment,dc=Tech,dc=local" -pwd P@ssw0rd -pwdneverexpires yes -disabled no
+dsadd user "cn=Hamdan,ou=managment,dc=Tech,dc=local" -pwd P@ssw0rd -pwdneverexpires yes -disabled no
+
+dsadd user "cn=Ehab,ou=inventory,dc=Tech,dc=local" -pwd P@ssw0rd -pwdneverexpires yes -disabled no
+dsadd user "cn=Diaa,ou=inventory,dc=Tech,dc=local" -pwd P@ssw0rd -pwdneverexpires yes -disabled no
+dsadd user "cn=Ebrahim,ou=inventory,dc=Tech,dc=local" -pwd P@ssw0rd -pwdneverexpires yes -disabled no
+
+dsadd user "cn=Fawiz,ou=archive,dc=Tech,dc=local" -pwd P@ssw0rd -pwdneverexpires yes -disabled no
+dsadd user "cn=Hatem,ou=archive,dc=Tech,dc=local" -pwd P@ssw0rd -pwdneverexpires yes -disabled no
+
+
+dsadd user "cn=Ali,ou=maintenance,dc=Tech,dc=local" -pwd P@ssw0rd -pwdneverexpires yes -disabled no
+dsadd user "cn=Abdallah,ou=maintenance,dc=Tech,dc=local" -pwd P@ssw0rd -pwdneverexpires yes -disabled no

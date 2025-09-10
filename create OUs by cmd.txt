@@ -1,0 +1,5 @@
+dsadd ou "ou=managment,dc=Tech,dc=local" && dsacls "OU=managment,DC=tech,DC=local" /d everyone:SDDT
+dsadd ou "ou=archive,dc=Tech,dc=local" && dsacls "OU=archive,DC=tech,DC=local" /d everyone:SDDT
+dsadd ou "ou=inventory,dc=Tech,dc=local" && dsacls "OU=inventory,DC=tech,DC=local" /d everyone:SDDT
+dsadd ou "ou=maintenance,dc=Tech,dc=local" && dsacls "OU=maintenance,DC=tech,DC=local" /d everyone:SDDT
+
