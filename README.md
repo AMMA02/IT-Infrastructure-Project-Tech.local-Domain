@@ -1,5 +1,7 @@
 # 🖥️ IT Infrastructure Project – Tech.local Domain
 
+<img width="1024" height="1024" alt="Copilot_20250911_020411" src="https://github.com/user-attachments/assets/ab1f5f88-d209-4107-b330-c8c67163ede7" />
+
 ## 1. Project Overview
 
 - **Domain Name**: `Tech.local`
@@ -29,7 +31,7 @@
    - AD Recycle Bin enabled
 
 2. **DHCP Server**
-   - Scope: `192.168.1.200 – 192.168.1.240`
+   - Scope: `192.168.1.200 – 192.168.1.240`      
    - Exclusion: `192.168.1.241 – 192.168.1.254`
    - Lease Duration: `10 Days`
 
@@ -39,6 +41,8 @@
 
 4. **Backup Server**
    - Backup state configuration
+     
+<img width="1838" height="942" alt="PDC" src="https://github.com/user-attachments/assets/4f02436b-9287-4c63-912f-ad28690d16c3" />
 
 ---
 
@@ -48,6 +52,7 @@
 - Script to **join machines to the domain**
 - Script to **add local user** (`IT-Support`) with password on all machines via GPO (emergency access)
 - Script to **map network drives** via GPO
+
 
 ---
 
@@ -62,7 +67,8 @@
    - Shortcut for shared drive on Desktop
    - Shortcut for company website on Desktop
    - Map shared drive automatically
-
+     
+<img width="1838" height="942" alt="GP" src="https://github.com/user-attachments/assets/be27adee-c581-4ace-9edf-2b8ef07b4789" />
 ---
 
 ## 3. Additional Domain Controller (ADC)
